@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300&family=Shadows+Into+Light&family=Special+Elite&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    display: flex;
+align-items: center;
+justify-content: start;
+width: 100%;
+height: 100vh;
+flex-direction: column;
+background-color: #BFBFBF;
+color: #3e3b3b;
+}
+
+.page a{
+    position: fixed;
+    top: 2px;
+    left: 2px;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.page h2{
+font-size: 80px;
+}
+
+.page p{
+    margin-top: 50px;
+    width: 80%;
+    font-size: 25px;
+}
+.russian{
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.french{
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.Turkish{
+    height: fit-content;
+    padding-bottom: 10px;
+}
+.Italian{
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+.Arabic{
+    height: fit-content;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width:760px) {
+    .page h2{
+        font-size: 60px;
+    }
+    .page a{
+        top: 10px;
+        left: 10px;
+    }
+    .page p{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+}
