@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6{
     width: 450px;
     height: 450px;
     border-radius: 50%;
-    background-image: url('/Reso/Val_IMP.jpg');
+    background-image: url('./Reso/Val_IMP.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
